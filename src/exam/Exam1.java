@@ -8,7 +8,7 @@ public class Exam1 {
 	public static void main(String[] args) {
 		HashMap<String, String> list = new HashMap<String, String>();
 		String name = null;
-		String phone;
+		String phone = null;
 		try (Scanner sc = new Scanner(System.in)) {
 			for (int i = 0; i < 10; i++) {
 				System.out.print("Ten sinh vien: ");
